@@ -1,9 +1,9 @@
-nav ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     background-color: teal;
 }
 
-nav li {
+.nav li {
     display: inline;
 }
