@@ -7,8 +7,19 @@ body {
 header {
     padding: 0;
     margin: 5px 10px;
-    display:block;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    background-image: url("./assets/images/whiteGeoBckREV.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
+
 /* navigation */
 .nav-bar {
     background-color: lightcyan;
