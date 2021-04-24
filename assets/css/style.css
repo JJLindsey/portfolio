@@ -66,3 +66,8 @@ header nav ul li a {
     color: var(--accent-three);
 }
 
+/*footer style*/
+footer nav ul li {
+    text-decoration: none;
+    color: var(pop);
+}
