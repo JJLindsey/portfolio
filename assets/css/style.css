@@ -61,7 +61,6 @@ header nav ul li a {
 .hero-text {
     text-align: left;
     position: absolute;
-    left: 70%;
     transform: translate(-25%, -25%);
     color: var(--accent-three);
 }
@@ -74,6 +73,7 @@ footer {
     width: 100%;
     background-color:var(--main-color);
     text-align: center;
+    color:var(--pop);
 }
 
 footer ul {
