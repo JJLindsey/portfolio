@@ -67,7 +67,25 @@ header nav ul li a {
 }
 
 /*footer style*/
-footer nav ul li {
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:var(--main-color);
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    text-decoration: none;
+}
+
+footer ul li a {
+    font-weight: bolder;
+    font-size: 24px;
     text-decoration: none;
     color: var(pop);
 }
