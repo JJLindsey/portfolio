@@ -52,10 +52,11 @@ header nav ul li a {
     text-decoration: none;
 }
 
-/* hero image */
+/* hero image
 .hero-image {
     background-image: url("../images/Geo1.jpg");
 }
+*/
 
 .hero-text {
     text-align: left;
