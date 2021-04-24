@@ -1,25 +1,33 @@
+:root {
+    --main-color: #0D0D0D;
+    --accent-one: #2445A6;
+    --accent-two: #F2CA52;
+    --accent-three: #F27405;
+    --pop: #D91818;
+}
 body {
     height: 100%;
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
-    background-color:black;
+    color:lightsteelblue;
 }
 
 header {
-    height: 80%;
-    padding: 20px 35px;
-    background-color:black;
+    width: 100%;
+    padding: 0;
+    background-image: url("./assets/images/Geo1.jpg");
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
     top:0;
-    background-image: url("./assets/images/Geo1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
+}
+
+header h1 {
+    color: var(--accent-three);
+    padding: 0 15px;
+    align-items: left;
 }
 
 /* navigation */
@@ -41,13 +49,7 @@ header nav ul li a {
 
 /* hero image */
 .hero-image {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("./assets/images/Geo1.jpg");
-    height: 80%;
-    width: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+    background-image: url("./assets/images/Geo1.jpg");
 }
 
 .hero-text {
