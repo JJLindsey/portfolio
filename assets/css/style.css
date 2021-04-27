@@ -5,6 +5,10 @@
     --accent-three: #8499B1;
     --pop: #D90368;
 }
+    html {
+  scroll-behavior: smooth;
+}
+
 body {
     height: 100%;
     margin: 0;
@@ -66,6 +70,27 @@ header h1 {
     color: var(--accent-three);
 }
 
+section {
+  display:inline-block;
+  padding: 65px 0;
+}
+
+.container {
+  display: inline-block;
+  height: 400px;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding-left: 0px;
+  padding-right: 10px;
+  box-sizing:border-box;
+}
+
+.container h3 {
+  color: var(--main-color);
+  font-size:40px;;
+  text-align: center;
+  margin-left: 40px;
+}
 /* work cards */
 .flex-container {
     display: flex;
