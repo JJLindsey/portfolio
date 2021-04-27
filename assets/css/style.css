@@ -26,6 +26,7 @@ header {
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
+    border-bottom: 5px solid var(--accent-one);
 }
 
 header h1 {
@@ -35,7 +36,7 @@ header h1 {
 }
 
 /* navigation */
-header nav ul {
+.nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -43,12 +44,12 @@ header nav ul {
     list-style: none;
 }
 
-header nav ul li a {
+.nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
     color: var(--accent-one);
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-shadow: 0 0 10px rgba(185, 185, 185, 0.5);
     text-decoration: none;
 }
 
