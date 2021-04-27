@@ -70,33 +70,42 @@ header h1 {
     color: var(--accent-three);
 }
 
-section {
+section #about {
   display:inline-block;
   padding: 65px 0;
 }
 
+#img {
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+}
+
 .container {
-  display: inline-block;
   height: 400px;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: auto;
   padding-left: 0px;
   padding-right: 10px;
   box-sizing:border-box;
+  justify-content: center;
 }
 
-.container h3 {
+.container h3, h4 {
   color: var(--main-color);
-  font-size:40px;;
+  font-size:28px;
   text-align: center;
   margin-left: 40px;
+  margin-bottom: 10px;
+  justify-content: center;
 }
 /* work cards */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .flex-item {
@@ -130,6 +139,7 @@ section {
 .flex-item-one {
     width: 75%;
     border-radius: 5px;
+    margin-left: 25px;;
     border: 4px solid var(--accent-one);
     background-color: white;
     font-size: 24px;
