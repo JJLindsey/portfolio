@@ -1,7 +1,7 @@
 :root {
-    --main-color: #2E294E;
+    --main-color: #011C40;
     --accent-one: #9bc4e2;
-    --accent-two:  #FFD400;
+    --accent-two: #FF931E;
     --accent-three: #8499B1;
     --pop: #D90368;
 }
@@ -38,6 +38,10 @@ header h1 {
     color: var(--accent-three);
     padding: 0 15px;
     align-items: left;
+}
+
+header img {
+  width: 115%;
 }
 
 /* navigation */
@@ -208,6 +212,10 @@ footer ul li a {
     padding: 10px 15px;
     text-shadow: 0 0 10px rgba(185, 185, 185, 0.25);
     text-decoration: none;
+}
+
+footer img {
+  width: 35%;
 }
 /* MEDIA QUERY FOR SMALLER DESKTOP AND SMALLER SCREENS */
 @media screen and (max-widht: 980px) {
