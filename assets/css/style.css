@@ -73,25 +73,29 @@ header h1 {
 */
 
 .FlexWrap {
-  background-color:
+  display:flex;
+  flex-direction: column;
 }
 
 section #about {
-  display:inline-block;
   padding: 65px 0;
 }
 
-.container {
+.container-about {
   height: 400px;
   margin-right: auto;
   padding-left: 0px;
   padding-right: 10px;
-  box-sizing:border-box;
   justify-content: center;
   background-color: white;
+  color: var(--main-color);
+  font-size: 2rem;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.container h3, h4 {
+.container-about h4 {
   color: var(--main-color);
   font-size:28px;
   text-align: center;
@@ -106,6 +110,8 @@ section #about {
     justify-content: space-between;
     width: 100%;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .flex-item {
@@ -202,4 +208,64 @@ footer ul li a {
     padding: 10px 15px;
     text-shadow: 0 0 10px rgba(185, 185, 185, 0.25);
     text-decoration: none;
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 780px) {
+  section {
+      padding: 30px 15px;
+  }
+
+  .step h3 {
+      flex: 1 100%;
+      text-align: center;
+  }
+
+  .step-info {
+      flex: 2 100%;
+      text-align: center;
+      justify-content: center;
+  }
+
+  .step-img {
+      flex: 0 32%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+
+  .step-text {
+      flex: 100%;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .hero-form button {
+      width: 100%;
+  }
+  
+  .section-title {
+      width: 95%;
+  }
+  
+  .intro p {
+      width: 100%;
+  }
+  
+  .trainer {
+      flex: 0 100%;
+  }
+  
+  .contact-info {
+      text-align: center;
+  }
+  
+  .contact-info > * {
+      flex: 0 100%;
+  }
+  
+  .contact-form {
+      order: 3;
+  }
 }
