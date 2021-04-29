@@ -14,6 +14,7 @@ body {
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
     color:lightsteelblue;
+    background: radial-gradient(circle farthest-side, #FFF, var(--accent-one));
 }
 
 header {
@@ -30,7 +31,7 @@ header {
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
-    border-bottom: 5px solid var(--accent-one);
+    border-bottom: 5px solid var(--accent-three);
 }
 
 header h1 {
@@ -63,23 +64,21 @@ header h1 {
 }
 */
 
-.hero-text {
+/* .hero-text {
     text-align: left;
     position: absolute;
     transform: translate(-25%, -25%);
     color: var(--accent-three);
 }
+*/
+
+.FlexWrap {
+  background-color:
+}
 
 section #about {
   display:inline-block;
   padding: 65px 0;
-}
-
-#img {
-  max-width: 100%;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.5;
 }
 
 .container {
@@ -89,6 +88,7 @@ section #about {
   padding-right: 10px;
   box-sizing:border-box;
   justify-content: center;
+  background-color: white;
 }
 
 .container h3, h4 {
