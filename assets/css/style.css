@@ -87,7 +87,7 @@ section #about {
   padding-left: 0px;
   padding-right: 10px;
   justify-content: center;
-  background-color: white;
+  background-color: var(--accent-one);
   color: var(--main-color);
   font-size: 2rem;
   align-items: center;
@@ -102,6 +102,11 @@ section #about {
   margin-left: 40px;
   margin-bottom: 10px;
   justify-content: center;
+}
+
+.container-about img {
+  width: 10%;
+  clip-path: circle(50% at 50%);
 }
 /* work cards */
 .flex-container {
