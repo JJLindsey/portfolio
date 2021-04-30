@@ -95,7 +95,7 @@ section #about {
 
 .container-about img {
   width: 10%;
-  clip-path: circle(50%);
+  clip-path: circle(45%);
 }
 /* work cards */
 .flex-container {
@@ -106,10 +106,12 @@ section #about {
     margin: 0 auto;
 }
 
-#work h3 {
+#work h3,
+#contact h3 {
   color:var(--main-color);
   text-align: center;
   font-size: 38px;
+  text-transform: uppercase;
 }
 
 .flex-item-one {
@@ -198,7 +200,7 @@ footer {
 
 footer ul {
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items:center;
     text-decoration: none;
 }
@@ -212,11 +214,17 @@ footer ul li a {
     padding: 10px 15px;
     text-shadow: 0 0 10px rgba(185, 185, 185, 0.25);
     text-decoration: none;
+    padding: 5px 5px;
 }
 
 footer img {
-  width: 35%;
+  width: 75%;
 }
+
+#contact h3 {
+  color:var(--accent-one);
+}
+
 /* MEDIA QUERY FOR SMALLER DESKTOP AND SMALLER SCREENS */
 @media screen and (max-widht: 980px) {
   header {
