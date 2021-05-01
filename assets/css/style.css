@@ -61,7 +61,9 @@ header img {
     text-shadow: 0 0 10px rgba(185, 185, 185, 0.5);
     text-decoration: none;
 }
+/* end navigation style */
 
+/* About Section */
 .FlexWrap {
   display:flex;
   flex-direction: column;
@@ -76,6 +78,7 @@ section #about {
 .container-about {
   height: 400px;
   margin-right: auto;
+  margin-bottom: 25px;
   padding-bottom: 25px;
   padding-left: 0px;
   padding-right: 10px;
@@ -104,8 +107,9 @@ section #about {
 .container-about p {
   font-size: 20px;
   text-align:center;
-  margin-bottom: 25px;
 }
+/* end About style */
+
 /* work cards */
 .flex-container {
     display: flex;
@@ -134,18 +138,10 @@ section #about {
     font-size: 24px;
     font-weight: bolder;
     margin-bottom: 15px;
-  /* tell background to fit box no matter what */
     background-size: cover;
-/* crop it at the center */
     background-position: center;
-
-  /* padding top and bottom 20px, 0 for left/right */
     padding: 10px 20px;
-
-  /* set minimum heigh value so there's room */
     min-height: 250px;
-
-  /* rather than use position...use flexbox and create column instead of row */
     display: flex;
     flex-direction: column;
 }
@@ -160,21 +156,10 @@ section #about {
   margin: 0 auto 5px;
   justify-content: center;
   align-items: center;
-
-/* for files in local images folder, use url('../images/file-name.jpg') */
-
-/* tell background to fit box no matter what */
   background-size: cover;
-/* crop it at the center */
   background-position: center;
-
-/* padding top and bottom 20px, 0 for left/right */
   padding: 20px 20px;
-
-/* set minimum heigh value so there's room */
   min-height: 250px;
-
-/* rather than use position...use flexbox and create column instead of row */
   display: flex;
   flex-direction: column;
 }
@@ -196,6 +181,7 @@ section #about {
 .flex-item img {
   width: 100%;
 }
+/* end work cards */
 
 /*footer style*/
 footer {
@@ -233,6 +219,7 @@ footer img {
 #contact h3 {
   color:var(--accent-one);
 }
+/* end footer style */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP AND SMALLER SCREENS */
 @media screen and (max-widht: 980px) {
@@ -290,31 +277,25 @@ footer h2, footer div {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  .hero-form button {
-      width: 100%;
-  }
-  
-  .section-title {
-      width: 95%;
-  }
-  
-  .intro p {
-      width: 100%;
-  }
-  
-  .trainer {
-      flex: 0 100%;
-  }
-  
-  .contact-info {
+  .flex-container{
+    flex: 2 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+  .flex-item-one {
+      flex: 1 100%;
       text-align: center;
   }
-  
-  .contact-info > * {
-      flex: 0 100%;
+
+  .flex-item-one img {
+      flex: 0 32%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
   }
-  
-  .contact-form {
-      order: 3;
+
+  .flex-item {
+      flex: 100%;
   }
 }
