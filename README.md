@@ -7,7 +7,9 @@ Portfolio of work
 * HTML
 * CSS
 
-## Website
+## Live Web Link
 https://jjlindsey.github.io/portfolio/
+
+<img src="assets/images/ScreenCap.png" height=400>
 
 ### ©2021 Jennifer Lindsey
