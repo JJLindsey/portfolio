@@ -89,7 +89,7 @@ section #about {
   padding: 65px 0;
 }
 
-.container-about {
+#container-about {
   height: 400px;
   margin-right: auto;
   margin-bottom: 25px;
@@ -200,6 +200,7 @@ section #about {
 
 /*footer style*/
 footer {
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
