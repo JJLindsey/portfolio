@@ -45,15 +45,29 @@ header img {
 }
 
 /* navigation */
-.nav ul {
+/*
+nav {
+  width: 100%;
+  margin-top: 5px;
+  justify-content: center;
+  display:flex;
+  font-size: 18px;
+  color: var(--accent-one);
+  text-shadow: 0 0 10px rgba(185, 185, 185, 0.5);
+}
+*/
+nav ul, .nav-link, .nav-item {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
     list-style: none;
+    text-decoration: none;
+    color: #9bc4e2;
 }
 
+
 .nav ul li a {
+
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
@@ -99,9 +113,10 @@ section #about {
   justify-content: center;
 }
 
-.container-about img {
+.img-about img {
   width: 10%;
   clip-path: circle(45%);
+  justify-content: center;
 }
 
 .container-about p {
@@ -296,4 +311,5 @@ footer h2, footer div {
   .flex-item {
       flex: 100%;
   }
+}
 }
