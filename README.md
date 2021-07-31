@@ -10,6 +10,6 @@ Portfolio of work
 ## Live Web Link
 https://jjlindsey.github.io/portfolio/
 
-<img src="assets/images/ScreenCap.png" height=400>
+<img src="assets/images/portfolioScreenAug.png" height=400>
 
 ### ©2021 Jennifer Lindsey
